@@ -108,7 +108,26 @@ list.html`}
               <td></td>
               <td>
                 <Link href="/Sub" className={styles.linkTxt}>
-                  page.tsx
+                  page.tsx(Sub)
+                </Link>
+              </td>
+              <td>
+                <ul className={styles.noteList}>
+                  <li>
+                    <em>0000-00-00</em>업데이트
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <th>About</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>
+                <Link href="/About" className={styles.linkTxt}>
+                  page.tsx(About)
                 </Link>
               </td>
               <td>
