@@ -101,7 +101,7 @@ list.html`}
           </thead>
           <tbody>
             <tr>
-              <th>Sub</th>
+              <th rowSpan={2}>Sub</th>
               <td></td>
               <td></td>
               <td></td>
@@ -109,6 +109,24 @@ list.html`}
               <td>
                 <Link href="/Sub" className={styles.linkTxt}>
                   page.tsx(Sub)
+                </Link>
+              </td>
+              <td>
+                <ul className={styles.noteList}>
+                  <li>
+                    <em>0000-00-00</em>업데이트
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>
+                <Link href="/Sub02" className={styles.linkTxt}>
+                  page.tsx(Sub02)
                 </Link>
               </td>
               <td>
