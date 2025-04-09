@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+import styles from "@/styles/list.module.css";
 import Link from "next/link";
 
 export default function Home() {
