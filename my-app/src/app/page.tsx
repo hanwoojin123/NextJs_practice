@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "@/styles/list.module.css";
+import styles from "@/styles/css/list.module.css";
 import Link from "next/link";
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
       <div className={styles.proListWrap}>
         <div className={styles.proListTop}>
           <div className={styles.projectName}>
-            <h1>프로젝트명</h1>
+            <h1>SKT QAS</h1>
           </div>
           <ul className={styles.worker}>
             <li>
@@ -42,7 +42,7 @@ export default function Home() {
               <th>인코딩</th>
               <td>UTF-8</td>
               <th>해상도 기준 / 디자인 너비</th>
-              <td>1200</td>
+              <td>1920</td>
             </tr>
             <tr>
               <th>웹 유형</th>
@@ -101,14 +101,81 @@ list.html`}
           </thead>
           <tbody>
             <tr>
-              <th rowSpan={2}>Sub</th>
+              <th>Template</th>
               <td></td>
               <td></td>
               <td></td>
               <td></td>
               <td>
-                <Link href="/Sub" className={styles.linkTxt}>
-                  page.tsx(Sub)
+                <Link href="/Template" className={styles.linkTxt}>
+                  page.tsx(Template)
+                </Link>
+              </td>
+              <td>
+                <ul className={styles.noteList}>
+                  <li>
+                    <em>0000-00-00</em>업데이트
+                  </li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td colSpan={7} className={styles.hrLine}></td>
+            </tr>
+
+            <tr>
+              <th>Main</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>
+                <Link href="/Main_view" className={styles.linkTxt}>
+                  page.tsx(Main_view)
+                </Link>
+              </td>
+              <td>
+                <ul className={styles.noteList}>
+                  <li>
+                    <em>0000-00-00</em>업데이트
+                  </li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td colSpan={7} className={styles.hrLine}></td>
+            </tr>
+
+            <tr>
+              <th rowSpan={4}>Sub</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>
+                <Link href="/Sub_01" className={styles.linkTxt}>
+                  page.tsx(Sub_01)
+                </Link>
+              </td>
+              <td>
+                <ul className={styles.noteList}>
+                  <li>
+                    <em>0000-00-00</em>업데이트
+                  </li>
+                </ul>
+              </td>
+
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>
+                <Link href="/Sub_02" className={styles.linkTxt}>
+                  page.tsx(Sub_02)
                 </Link>
               </td>
               <td>
@@ -125,8 +192,8 @@ list.html`}
               <td></td>
               <td></td>
               <td>
-                <Link href="/Sub02" className={styles.linkTxt}>
-                  page.tsx(Sub02)
+                <Link href="/Sub_03" className={styles.linkTxt}>
+                  page.tsx(Sub_03)
                 </Link>
               </td>
               <td>
@@ -138,14 +205,13 @@ list.html`}
               </td>
             </tr>
             <tr>
-              <th>About</th>
               <td></td>
               <td></td>
               <td></td>
               <td></td>
               <td>
-                <Link href="/About" className={styles.linkTxt}>
-                  page.tsx(About)
+                <Link href="/Sub_04" className={styles.linkTxt}>
+                  page.tsx(Sub_04)
                 </Link>
               </td>
               <td>
