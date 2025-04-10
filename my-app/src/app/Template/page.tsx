@@ -11,7 +11,7 @@ export default function AboutPage() {
                         <nav className="nav">
                             <ul className="gnb_menu">
                                 <li className="active">
-                                    <a href="javascript:;"><h2>업무현황</h2></a>
+                                    <a href="#"><h2>업무현황</h2></a>
                                     <div className="depth2_slide_wrap">
                                         <ul className="depth2">
                                             <div className="depth2_left">
@@ -19,15 +19,15 @@ export default function AboutPage() {
                                             </div>
                                             <div className="depth2_right">
                                                 <ul className="depth2_list">
-                                                    <li><a href="javascript:;">납품검사현황</a></li>
-                                                    <li><a href="javascript:;">일반현황</a></li>
+                                                    <li><a href="#">납품검사현황</a></li>
+                                                    <li><a href="#">일반현황</a></li>
                                                 </ul>
                                             </div>
                                         </ul>            
                                     </div>                    
                                 </li>
                                 <li>
-                                    <a href="javascript:;"><h2>납품검사</h2></a>
+                                    <a href="#"><h2>납품검사</h2></a>
                                     <div className="depth2_slide_wrap">
                                         <ul className="depth2">
                                             <div className="depth2_left">
@@ -35,26 +35,26 @@ export default function AboutPage() {
                                             </div>
                                             <div className="depth2_right">
                                                 <ul className="depth2_list">
-                                                    <li><a href="javascript:;">검사필증 선발행</a></li>
-                                                    <li><a href="javascript:;">납품검사 관리</a></li>
-                                                    <li><a href="javascript:;">시험성적서 분석</a></li>
-                                                    <li><a href="javascript:;">시정조치</a></li> 
-                                                    <li><a href="javascript:;">불합격 판정조회</a></li> 
-                                                    <li><a href="javascript:;">ERP 승인(자동)</a></li> 
-                                                    <li><a href="javascript:;">ERP 미승인 물품조회</a></li> 
-                                                    <li><a href="javascript:;">인증시험 관리</a></li> 
-                                                    <li><a href="javascript:;">선납신청 및 조회(결과조회)</a></li> 
-                                                    <li><a href="javascript:;">선납신청 및 조회(신청서 작성)</a></li> 
-                                                    <li><a href="javascript:;">선납신청 및 조회(QAS선납 승인)</a></li>
-                                                    <li><a href="javascript:;">ERP 미승인 물품조회</a></li> 
-                                                    <li><a href="javascript:;">인증시험 관리</a></li> 
+                                                    <li><a href="#">검사필증 선발행</a></li>
+                                                    <li><a href="#">납품검사 관리</a></li>
+                                                    <li><a href="#">시험성적서 분석</a></li>
+                                                    <li><a href="#">시정조치</a></li> 
+                                                    <li><a href="#">불합격 판정조회</a></li> 
+                                                    <li><a href="#">ERP 승인(자동)</a></li> 
+                                                    <li><a href="#">ERP 미승인 물품조회</a></li> 
+                                                    <li><a href="#">인증시험 관리</a></li> 
+                                                    <li><a href="#">선납신청 및 조회(결과조회)</a></li> 
+                                                    <li><a href="#">선납신청 및 조회(신청서 작성)</a></li> 
+                                                    <li><a href="#">선납신청 및 조회(QAS선납 승인)</a></li>
+                                                    <li><a href="#">ERP 미승인 물품조회</a></li> 
+                                                    <li><a href="#">인증시험 관리</a></li> 
                                                 </ul>
                                             </div>
                                         </ul>            
                                     </div>      
                                 </li>
                                 <li>
-                                    <a href="javascript:;"><h2>사후품질 분석</h2></a>
+                                    <a href="#"><h2>사후품질 분석</h2></a>
                                     <div className="depth2_slide_wrap">
                                         <ul className="depth2">
                                             <div className="depth2_left">
@@ -62,35 +62,35 @@ export default function AboutPage() {
                                             </div>
                                             <div className="depth2_right">
                                                 <ul className="depth2_list">
-                                                    <li><a href="javascript:;">검사필증 선발행</a></li>
-                                                    <li><a href="javascript:;">납품검사 관리</a></li>
-                                                    <li><a href="javascript:;">시험성적서 분석</a></li>
-                                                    <li><a href="javascript:;">시정조치</a></li> 
-                                                    <li><a href="javascript:;">불합격 판정조회</a></li> 
-                                                    <li><a href="javascript:;">ERP 승인(자동)</a></li> 
-                                                    <li><a href="javascript:;">ERP 미승인 물품조회</a></li> 
-                                                    <li><a href="javascript:;">인증시험 관리</a></li> 
-                                                    <li><a href="javascript:;">선납신청 및 조회(결과조회)</a></li> 
-                                                    <li><a href="javascript:;">선납신청 및 조회(신청서 작성)</a></li> 
-                                                    <li><a href="javascript:;">선납신청 및 조회(QAS선납 승인)</a></li>
-                                                    <li><a href="javascript:;">ERP 미승인 물품조회</a></li> 
-                                                    <li><a href="javascript:;">인증시험 관리</a></li>
-                                                    <li><a href="javascript:;">검사필증 선발행</a></li>
-                                                    <li><a href="javascript:;">납품검사 관리</a></li>
-                                                    <li><a href="javascript:;">시험성적서 분석</a></li>
-                                                    <li><a href="javascript:;">검사필증 선발행</a></li>
-                                                    <li><a href="javascript:;">납품검사 관리</a></li>
-                                                    <li><a href="javascript:;">시험성적서 분석</a></li>
-                                                    <li><a href="javascript:;">검사필증 선발행</a></li>
-                                                    <li><a href="javascript:;">납품검사 관리</a></li>
-                                                    <li><a href="javascript:;">시험성적서 분석</a></li>
+                                                    <li><a href="#">검사필증 선발행</a></li>
+                                                    <li><a href="#">납품검사 관리</a></li>
+                                                    <li><a href="#">시험성적서 분석</a></li>
+                                                    <li><a href="#">시정조치</a></li> 
+                                                    <li><a href="#">불합격 판정조회</a></li> 
+                                                    <li><a href="#">ERP 승인(자동)</a></li> 
+                                                    <li><a href="#">ERP 미승인 물품조회</a></li> 
+                                                    <li><a href="#">인증시험 관리</a></li> 
+                                                    <li><a href="#">선납신청 및 조회(결과조회)</a></li> 
+                                                    <li><a href="#">선납신청 및 조회(신청서 작성)</a></li> 
+                                                    <li><a href="#">선납신청 및 조회(QAS선납 승인)</a></li>
+                                                    <li><a href="#">ERP 미승인 물품조회</a></li> 
+                                                    <li><a href="#">인증시험 관리</a></li>
+                                                    <li><a href="#">검사필증 선발행</a></li>
+                                                    <li><a href="#">납품검사 관리</a></li>
+                                                    <li><a href="#">시험성적서 분석</a></li>
+                                                    <li><a href="#">검사필증 선발행</a></li>
+                                                    <li><a href="#">납품검사 관리</a></li>
+                                                    <li><a href="#">시험성적서 분석</a></li>
+                                                    <li><a href="#">검사필증 선발행</a></li>
+                                                    <li><a href="#">납품검사 관리</a></li>
+                                                    <li><a href="#">시험성적서 분석</a></li>
                                                 </ul>
                                             </div>
                                         </ul>            
                                     </div>            
                                 </li>
                                 <li>
-                                    <a href="javascript:;"><h2>커뮤니티</h2></a>
+                                    <a href="#"><h2>커뮤니티</h2></a>
                                     <div className="depth2_slide_wrap">
                                         <ul className="depth2">
                                             <div className="depth2_left">
@@ -98,18 +98,18 @@ export default function AboutPage() {
                                             </div>
                                             <div className="depth2_right">
                                                 <ul className="depth2_list">
-                                                    <li><a href="javascript:;">검사필증 선발행</a></li>
-                                                    <li><a href="javascript:;">납품검사 관리</a></li>
-                                                    <li><a href="javascript:;">시험성적서 분석</a></li>
-                                                    <li><a href="javascript:;">시정조치</a></li> 
-                                                    <li><a href="javascript:;">불합격 판정조회</a></li> 
+                                                    <li><a href="#">검사필증 선발행</a></li>
+                                                    <li><a href="#">납품검사 관리</a></li>
+                                                    <li><a href="#">시험성적서 분석</a></li>
+                                                    <li><a href="#">시정조치</a></li> 
+                                                    <li><a href="#">불합격 판정조회</a></li> 
                                                 </ul>
                                             </div>
                                         </ul>            
                                     </div>       
                                 </li>
                                 <li>
-                                    <a href="javascript:;"><h2>관리</h2></a>
+                                    <a href="#"><h2>관리</h2></a>
                                     <div className="depth2_slide_wrap">
                                         <ul className="depth2">
                                             <div className="depth2_left">
@@ -117,23 +117,23 @@ export default function AboutPage() {
                                             </div>
                                             <div className="depth2_right">
                                                 <ul className="depth2_list">
-                                                    <li><a href="javascript:;">검사필증 선발행</a></li>
-                                                    <li><a href="javascript:;">납품검사 관리</a></li>
-                                                    <li><a href="javascript:;">시험성적서 분석</a></li>
-                                                    <li><a href="javascript:;">시정조치</a></li> 
-                                                    <li><a href="javascript:;">불합격 판정조회</a></li> 
-                                                    <li><a href="javascript:;">ERP 승인(자동)</a></li> 
-                                                    <li><a href="javascript:;">ERP 미승인 물품조회</a></li> 
-                                                    <li><a href="javascript:;">인증시험 관리</a></li> 
-                                                    <li><a href="javascript:;">선납신청 및 조회(결과조회)</a></li> 
-                                                    <li><a href="javascript:;">선납신청 및 조회(신청서 작성)</a></li> 
+                                                    <li><a href="#">검사필증 선발행</a></li>
+                                                    <li><a href="#">납품검사 관리</a></li>
+                                                    <li><a href="#">시험성적서 분석</a></li>
+                                                    <li><a href="#">시정조치</a></li> 
+                                                    <li><a href="#">불합격 판정조회</a></li> 
+                                                    <li><a href="#">ERP 승인(자동)</a></li> 
+                                                    <li><a href="#">ERP 미승인 물품조회</a></li> 
+                                                    <li><a href="#">인증시험 관리</a></li> 
+                                                    <li><a href="#">선납신청 및 조회(결과조회)</a></li> 
+                                                    <li><a href="#">선납신청 및 조회(신청서 작성)</a></li> 
                                                 </ul>
                                             </div>
                                         </ul>            
                                     </div>    
                                 </li>
                                 <li>
-                                    <a href="javascript:;"><h2>시스템 관리</h2></a>
+                                    <a href="#"><h2>시스템 관리</h2></a>
                                     <div className="depth2_slide_wrap">
                                         <ul className="depth2">
                                             <div className="depth2_left">
@@ -141,30 +141,30 @@ export default function AboutPage() {
                                             </div>
                                             <div className="depth2_right">
                                                 <ul className="depth2_list">
-                                                    <li><a href="javascript:;">검사필증 선발행</a></li>
-                                                    <li><a href="javascript:;">납품검사 관리</a></li>
-                                                    <li><a href="javascript:;">시험성적서 분석</a></li>
-                                                    <li><a href="javascript:;">시정조치</a></li> 
-                                                    <li><a href="javascript:;">불합격 판정조회</a></li> 
-                                                    <li><a href="javascript:;">ERP 승인(자동)</a></li> 
-                                                    <li><a href="javascript:;">ERP 미승인 물품조회</a></li> 
-                                                    <li><a href="javascript:;">인증시험 관리</a></li> 
-                                                    <li><a href="javascript:;">선납신청 및 조회(결과조회)</a></li> 
-                                                    <li><a href="javascript:;">선납신청 및 조회(신청서 작성)</a></li> 
-                                                    <li><a href="javascript:;">선납신청 및 조회(QAS선납 승인)</a></li>
-                                                    <li><a href="javascript:;">ERP 미승인 물품조회</a></li> 
-                                                    <li><a href="javascript:;">인증시험 관리</a></li>
-                                                    <li><a href="javascript:;">선납신청 및 조회(신청서 작성)</a></li> 
-                                                    <li><a href="javascript:;">선납신청 및 조회(QAS선납 승인)</a></li>
-                                                    <li><a href="javascript:;">ERP 미승인 물품조회</a></li> 
-                                                    <li><a href="javascript:;">인증시험 관리</a></li> 
+                                                    <li><a href="#">검사필증 선발행</a></li>
+                                                    <li><a href="#">납품검사 관리</a></li>
+                                                    <li><a href="#">시험성적서 분석</a></li>
+                                                    <li><a href="#">시정조치</a></li> 
+                                                    <li><a href="#">불합격 판정조회</a></li> 
+                                                    <li><a href="#">ERP 승인(자동)</a></li> 
+                                                    <li><a href="#">ERP 미승인 물품조회</a></li> 
+                                                    <li><a href="#">인증시험 관리</a></li> 
+                                                    <li><a href="#">선납신청 및 조회(결과조회)</a></li> 
+                                                    <li><a href="#">선납신청 및 조회(신청서 작성)</a></li> 
+                                                    <li><a href="#">선납신청 및 조회(QAS선납 승인)</a></li>
+                                                    <li><a href="#">ERP 미승인 물품조회</a></li> 
+                                                    <li><a href="#">인증시험 관리</a></li>
+                                                    <li><a href="#">선납신청 및 조회(신청서 작성)</a></li> 
+                                                    <li><a href="#">선납신청 및 조회(QAS선납 승인)</a></li>
+                                                    <li><a href="#">ERP 미승인 물품조회</a></li> 
+                                                    <li><a href="#">인증시험 관리</a></li> 
                                                 </ul>
                                             </div>
                                         </ul>            
                                     </div>                      
                                 </li>
                                 <li>
-                                    <a href="javascript:;"><h2>품질보증 소개</h2></a>
+                                    <a href="#"><h2>품질보증 소개</h2></a>
                                     <div className="depth2_slide_wrap">
                                         <ul className="depth2">
                                             <div className="depth2_left">
@@ -172,13 +172,13 @@ export default function AboutPage() {
                                             </div>
                                             <div className="depth2_right">
                                                 <ul className="depth2_list">
-                                                    <li><a href="javascript:;">검사필증 선발행</a></li>
-                                                    <li><a href="javascript:;">납품검사 관리</a></li>
-                                                    <li><a href="javascript:;">시험성적서 분석</a></li>
-                                                    <li><a href="javascript:;">시정조치</a></li> 
-                                                    <li><a href="javascript:;">불합격 판정조회</a></li> 
-                                                    <li><a href="javascript:;">ERP 승인(자동)</a></li> 
-                                                    <li><a href="javascript:;">ERP 미승인 물품조회</a></li> 
+                                                    <li><a href="#">검사필증 선발행</a></li>
+                                                    <li><a href="#">납품검사 관리</a></li>
+                                                    <li><a href="#">시험성적서 분석</a></li>
+                                                    <li><a href="#">시정조치</a></li> 
+                                                    <li><a href="#">불합격 판정조회</a></li> 
+                                                    <li><a href="#">ERP 승인(자동)</a></li> 
+                                                    <li><a href="#">ERP 미승인 물품조회</a></li> 
                                                 </ul>
                                             </div>
                                         </ul>            
@@ -214,10 +214,10 @@ export default function AboutPage() {
                             <div className="header_menu_list_bottom">
                                 <ul className="depth">
                                     <li>
-                                        <a href="javascript:;">납품검사현황</a>
+                                        <a href="#">납품검사현황</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">일반현황</a>
+                                        <a href="#">일반현황</a>
                                     </li>
                                 </ul>
                             </div>
@@ -229,37 +229,37 @@ export default function AboutPage() {
                             <div className="header_menu_list_bottom">
                                 <ul className="depth">
                                     <li>
-                                        <a href="javascript:;">검사필증 선발행</a>
+                                        <a href="#">검사필증 선발행</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">납품검사 관리</a>
+                                        <a href="#">납품검사 관리</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">시험성적서 분석</a>
+                                        <a href="#">시험성적서 분석</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">시정조치</a>
+                                        <a href="#">시정조치</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">불합격 판정조회</a>
+                                        <a href="#">불합격 판정조회</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">ERP 승인(자동)</a>
+                                        <a href="#">ERP 승인(자동)</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">ERP 미승인 물품조회</a>
+                                        <a href="#">ERP 미승인 물품조회</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">인증시험 관리</a>
+                                        <a href="#">인증시험 관리</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">선납신청 및 조회<br />(결과조회)</a>
+                                        <a href="#">선납신청 및 조회<br />(결과조회)</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">선납신청 및 조회<br />(신청서 작성)</a>
+                                        <a href="#">선납신청 및 조회<br />(신청서 작성)</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">선납신청 및 조회<br />(QAS선납 승인)</a>
+                                        <a href="#">선납신청 및 조회<br />(QAS선납 승인)</a>
                                     </li>
                                 </ul>
                             </div>
@@ -271,40 +271,40 @@ export default function AboutPage() {
                             <div className="header_menu_list_bottom">
                                 <ul className="depth">
                                     <li>
-                                        <a href="javascript:;">주장비 A/S율</a>
+                                        <a href="#">주장비 A/S율</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">주장비 전체 A/S율</a>
+                                        <a href="#">주장비 전체 A/S율</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">중기계 A/S율</a>
+                                        <a href="#">중기계 A/S율</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">중기계 전체 A/S율</a>
+                                        <a href="#">중기계 전체 A/S율</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">전송 A/S율</a>
+                                        <a href="#">전송 A/S율</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">중기계 운용 A/S건수</a>
+                                        <a href="#">중기계 운용 A/S건수</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">전송 운용 A/S건수</a>
+                                        <a href="#">전송 운용 A/S건수</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">주장비 운용 A/S건수<br />(업체별)</a>
+                                        <a href="#">주장비 운용 A/S건수<br />(업체별)</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">중계기 운용 A/S건수<br />(업체별, 고장유형별)</a>
+                                        <a href="#">중계기 운용 A/S건수<br />(업체별, 고장유형별)</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">주장비 운용 A/S건수<br />(업체별 세부현황)</a>
+                                        <a href="#">주장비 운용 A/S건수<br />(업체별 세부현황)</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">중계기 운용 A/S건수<br />(업체별 세부현황)</a>
+                                        <a href="#">중계기 운용 A/S건수<br />(업체별 세부현황)</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">ERP 계약 Data</a>
+                                        <a href="#">ERP 계약 Data</a>
                                     </li>
                                 </ul>
                             </div>
@@ -316,13 +316,13 @@ export default function AboutPage() {
                             <div className="header_menu_list_bottom">
                                 <ul className="depth">
                                     <li>
-                                        <a href="javascript:;">공지사항</a>
+                                        <a href="#">공지사항</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">Q&A</a>
+                                        <a href="#">Q&A</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">FAQ</a>
+                                        <a href="#">FAQ</a>
                                     </li>
                                 </ul>
                             </div>
@@ -334,34 +334,34 @@ export default function AboutPage() {
                             <div className="header_menu_list_bottom">
                                 <ul className="depth">
                                     <li>
-                                        <a href="javascript:;">물품관리</a>
+                                        <a href="#">물품관리</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">신규 물품관리</a>
+                                        <a href="#">신규 물품관리</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">물품분류 관리</a>
+                                        <a href="#">물품분류 관리</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">품질검사 제외품목 관리</a>
+                                        <a href="#">품질검사 제외품목 관리</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">시험성적서</a>
+                                        <a href="#">시험성적서</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">협력사</a>
+                                        <a href="#">협력사</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">협력사 품질관리</a>
+                                        <a href="#">협력사 품질관리</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">사용자관리</a>
+                                        <a href="#">사용자관리</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">홈 관리</a>
+                                        <a href="#">홈 관리</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">임대설비 관리</a>
+                                        <a href="#">임대설비 관리</a>
                                     </li>
                                 </ul>
                             </div>
@@ -373,25 +373,25 @@ export default function AboutPage() {
                             <div className="header_menu_list_bottom">
                                 <ul className="depth">
                                     <li>
-                                        <a href="javascript:;">사용자 및 권한관리</a>
+                                        <a href="#">사용자 및 권한관리</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">로그관리</a>
+                                        <a href="#">로그관리</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">메뉴관리</a>
+                                        <a href="#">메뉴관리</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">코드관리</a>
+                                        <a href="#">코드관리</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">메시지 관리</a>
+                                        <a href="#">메시지 관리</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">조직 관리</a>
+                                        <a href="#">조직 관리</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:;">시스템 관리</a>
+                                        <a href="#">시스템 관리</a>
                                     </li>
                                 </ul>
                             </div>
@@ -416,9 +416,9 @@ export default function AboutPage() {
                         <li className="depth active">
                             <a href="#">납품검사 관리</a>
                             <ul className="depth2">
-                                <li className="active"><a href="javascript:;">납품검사 관리</a></li>
-                                <li><a href="javascript:;">납품검사 관리</a></li>
-                                <li><a href="javascript:;">납품검사 관리</a></li>
+                                <li className="active"><a href="#">납품검사 관리</a></li>
+                                <li><a href="#">납품검사 관리</a></li>
+                                <li><a href="#">납품검사 관리</a></li>
                             </ul>
                         </li>
                         <li>
@@ -459,8 +459,8 @@ export default function AboutPage() {
                             </div>
                             <div className="right">
                                 <ul className="location">
-                                    <li className="home"><a href="javascript:;">home</a></li>
-                                    <li><a href="javascript:;">납품검사</a></li>
+                                    <li className="home"><a href="#">home</a></li>
+                                    <li><a href="#">납품검사</a></li>
                                     <li><strong>납품검사관리</strong></li>
                                 </ul>
                             </div>
