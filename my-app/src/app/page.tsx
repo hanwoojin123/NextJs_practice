@@ -59,17 +59,28 @@ export default function Home() {
         {/* ********* Directory ********** */}
         <pre className={styles.code}>
           {`/* Directory */
-html
-_template
-_main
-_sub
-resource
-_css
-_font
-_images
-_js
-_lib
-list.html`}
+my-app  
+  src
+    app
+      Template
+        _page.tsx
+      Main_view
+        _page.tsx
+      Sub_01
+        _page.tsx
+      Sub_02
+        _page.tsx
+      Sub_03
+        _page.tsx
+      Sub_04
+        _page.tsx
+    styles
+      _css
+      _fonts
+  public
+    assets
+      _images
+    `}
         </pre>
         {/* ********* Directory ********** */}
 
