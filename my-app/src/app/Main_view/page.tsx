@@ -7,7 +7,7 @@ export default function SubPage() {
             <header className="header">
                 <div className="header_menu">
                     <div className="header_left">
-                        <h1 className="logo"><a href="javascrip:;"><img src="assets/images/common/img_logo.svg" alt="SKT QAS" /></a></h1>
+                        <h1 className="logo"><a href="javascrip:;"><img src="/assets/images/common/img_logo.svg" alt="SKT QAS" /></a></h1>
                         <nav className="nav">
                             <ul className="gnb_menu">
                                 <li className="active">

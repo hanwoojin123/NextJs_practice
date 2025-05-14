@@ -1,7 +1,17 @@
-import styles from "@/assets/css/list.module.css";
+'use client';
+
+import { useState } from 'react';
+import styles from "@/styles/css/list.module.css";
 import Link from "next/link";
 
 export default function Home() {
+  const [isOpen, setIsOpen] = useState(true);
+
+  const toggleContent = () => {
+    setIsOpen(prev => !prev);
+  };
+
+
   return (
     <div className={styles.fileList}>
       <div className={styles.proListWrap}>
@@ -19,69 +29,86 @@ export default function Home() {
 
         <div className={styles.toggleBtnArea}>
           <strong>프로젝트 환경</strong>
-          <button type="button" className={styles.toggleBtn}>
-            Closed
+          <button
+            type="button"
+            className={styles.toggleBtn}
+            onClick={toggleContent} // 클릭 시 상태 변경
+          >
+            {isOpen ? 'Close' : 'Open'}
           </button>
         </div>
 
         {/* ********* info ********** */}
-        <table className={styles.infoTbl}>
-          <colgroup>
-            <col style={{ width: "180px" }} />
-            <col />
-            <col style={{ width: "180px" }} />
-            <col />
-            <col style={{ width: "180px" }} />
-            <col />
-          </colgroup>
-          <tbody>
-            <tr>
-              <th>문서 및 버전</th>
-              <td>HTML5, CSS3</td>
-              <th>인코딩</th>
-              <td>UTF-8</td>
-              <th>해상도 기준 / 디자인 너비</th>
-              <td>1920</td>
-            </tr>
-            <tr>
-              <th>웹 유형</th>
-              <td>PC Web</td>
-              <th>PC 웹 호환성</th>
-              <td>chrome, edge, firefox</td>
-              <th>SERVER</th>
-              <td>http://112.217.230.10/project_/</td>
-            </tr>
-          </tbody>
-        </table>
-        {/* ********* info ********** */}
+        {isOpen && (
+          <>
+            <table className={styles.infoTbl}>
+              <colgroup>
+                <col style={{ width: "180px" }} />
+                <col />
+                <col style={{ width: "180px" }} />
+                <col />
+                <col style={{ width: "180px" }} />
+                <col />
+              </colgroup>
+              <tbody>
+                <tr>
+                  <th>문서 및 버전</th>
+                  <td>HTML5, CSS3</td>
+                  <th>인코딩</th>
+                  <td>UTF-8</td>
+                  <th>해상도 기준 / 디자인 너비</th>
+                  <td>1920</td>
+                </tr>
+                <tr>
+                  <th>웹 유형</th>
+                  <td>PC Web</td>
+                  <th>PC 웹 호환성</th>
+                  <td>chrome, edge, firefox</td>
+                  <th>SERVER</th>
+                  <td>http://112.217.230.10/project_/</td>
+                </tr>
+              </tbody>
+            </table>
 
-        {/* ********* Directory ********** */}
-        <pre className={styles.code}>
-          {`/* Directory */
+            <pre className={styles.code}>
+  {`/* Directory */
 my-app  
-  src
-    app
-      Template
-        _page.tsx
-      Main_view
-        _page.tsx
-      Sub_01
-        _page.tsx
-      Sub_02
-        _page.tsx
-      Sub_03
-        _page.tsx
-      Sub_04
-        _page.tsx
-    styles
-      _css
-      _fonts
-  public
-    assets
-      _images
-    `}
-        </pre>
-        {/* ********* Directory ********** */}
+    src
+        components
+        app
+            Template
+                _page.tsx
+            Main_view
+                _page.tsx
+            Sub_01
+                _page.tsx
+            Sub_02
+                _page.tsx
+            Sub_03
+                _page.tsx
+            Sub_04
+                _page.tsx
+            _document.tsx
+            layout.tsx
+            page.tsx
+        assets
+            css
+                common.css
+                fonts.css
+                list.module.css
+                reset.css
+            fonts
+            images
+                common
+                date
+                main
+                page
+        styles
+  `}
+            </pre>
+          </>
+        )}  
+        {/* ********* info ********** */}
 
         <p className={styles.total}>
           total : <span></span>
