@@ -1,4 +1,4 @@
-export default function SubPage() {
+export default function main() {
     return (
         // wrap : S
         <div className="wrap main">
