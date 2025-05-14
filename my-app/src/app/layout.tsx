@@ -1,6 +1,6 @@
-import "@/styles/css/reset.css";
-import "@/styles/css/fonts.css";
-import '@/styles/css/common.css';
+import "@/assets/css/reset.css";
+import "@/assets/css/fonts.css";
+import "@/assets/css/common.css";
 
 export default function RootLayout({
   children,
