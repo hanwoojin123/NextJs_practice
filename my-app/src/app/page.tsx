@@ -268,7 +268,7 @@ my-app
             </tr>
 
             <tr>
-              <th rowSpan={5}>Components</th>
+              <th rowSpan={6}>Components</th>
               <td></td>
               <td></td>
               <td></td>
@@ -348,6 +348,24 @@ my-app
               <td>
                 <Link href="/DatePicker" className={styles.linkTxt}>
                   page.tsx(DatePicker)
+                </Link>
+              </td>
+              <td>
+                <ul className={styles.noteList}>
+                  <li>
+                    <em>0000-00-00</em>업데이트
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>
+                <Link href="/Tooltip" className={styles.linkTxt}>
+                  page.tsx(Tooltip)
                 </Link>
               </td>
               <td>
