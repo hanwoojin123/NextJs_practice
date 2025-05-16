@@ -73,37 +73,40 @@ export default function Home() {
             <pre className={styles.code}>
   {`/* Directory */
 my-app  
+    public
+        assets
+          images
+              common
+              date
+              main
+              page
     src
         components
         app
-            Template
-                _page.tsx
+            (auth)
+              Template
+                  _page.tsx
+              Sub_01
+                  _page.tsx
+              Sub_02
+                  _page.tsx
+              Sub_03
+                  _page.tsx
+              Sub_04
+                  _page.tsx
+            components
             Main_view
-                _page.tsx
-            Sub_01
-                _page.tsx
-            Sub_02
-                _page.tsx
-            Sub_03
-                _page.tsx
-            Sub_04
-                _page.tsx
+                page.tsx
             _document.tsx
             layout.tsx
             page.tsx
-        assets
+        styles
             css
                 common.css
                 fonts.css
                 list.module.css
                 reset.css
             fonts
-            images
-                common
-                date
-                main
-                page
-        styles
   `}
             </pre>
           </>
@@ -186,7 +189,7 @@ my-app
             </tr>
 
             <tr>
-              <th rowSpan={4}>Sub</th>
+              <th rowSpan={5}>Sub</th>
               <td></td>
               <td></td>
               <td></td>
@@ -249,6 +252,24 @@ my-app
               <td>
                 <Link href="/Sub_04" className={styles.linkTxt}>
                   page.tsx(Sub_04)
+                </Link>
+              </td>
+              <td>
+                <ul className={styles.noteList}>
+                  <li>
+                    <em>0000-00-00</em>업데이트
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>
+                <Link href="/Collapse" className={styles.linkTxt}>
+                  page.tsx(Collapse)
                 </Link>
               </td>
               <td>
