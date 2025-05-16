@@ -189,7 +189,7 @@ my-app
             </tr>
 
             <tr>
-              <th rowSpan={5}>Sub</th>
+              <th rowSpan={4}>Sub</th>
               <td></td>
               <td></td>
               <td></td>
@@ -262,7 +262,13 @@ my-app
                 </ul>
               </td>
             </tr>
+
             <tr>
+              <td colSpan={7} className={styles.hrLine}></td>
+            </tr>
+
+            <tr>
+              <th rowSpan={5}>Components</th>
               <td></td>
               <td></td>
               <td></td>
@@ -270,6 +276,78 @@ my-app
               <td>
                 <Link href="/Collapse" className={styles.linkTxt}>
                   page.tsx(Collapse)
+                </Link>
+              </td>
+              <td>
+                <ul className={styles.noteList}>
+                  <li>
+                    <em>0000-00-00</em>업데이트
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>
+                <Link href="/Dropdown" className={styles.linkTxt}>
+                  page.tsx(Dropdown)
+                </Link>
+              </td>
+              <td>
+                <ul className={styles.noteList}>
+                  <li>
+                    <em>0000-00-00</em>업데이트
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>
+                <Link href="/Menu" className={styles.linkTxt}>
+                  page.tsx(Menu)
+                </Link>
+              </td>
+              <td>
+                <ul className={styles.noteList}>
+                  <li>
+                    <em>0000-00-00</em>업데이트
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>
+                <Link href="/Tabs" className={styles.linkTxt}>
+                  page.tsx(Tabs)
+                </Link>
+              </td>
+              <td>
+                <ul className={styles.noteList}>
+                  <li>
+                    <em>0000-00-00</em>업데이트
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>
+                <Link href="/DatePicker" className={styles.linkTxt}>
+                  page.tsx(DatePicker)
                 </Link>
               </td>
               <td>
