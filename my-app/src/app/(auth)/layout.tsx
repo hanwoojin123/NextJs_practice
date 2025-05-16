@@ -457,7 +457,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 
                     {/* contents : S */}
                     <div className="contents">
-                    {children}
+                        {children}
                     </div>
                 </div>
                 {/* container : E */}
